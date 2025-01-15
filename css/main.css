@@ -154,6 +154,116 @@ a{
 
 /* ------------------------------ HERO END ---------------------- */
 
+/* ------------------------------ SERVICES START ---------------- */
+.services{
+    padding-top: 84px;
+    padding-bottom: 185px;
+}
+
+.services__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto 80px;
+}
+
+.services__subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+.services__title{
+    font-family: 'Manrope';
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.services__card-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.service__card-img{
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+.service__card-title{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.service__card-info{
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    margin-bottom: 28px;
+}
+
+.service__service-explore{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #0A2640;
+    border-bottom: 1px solid #0A2640;
+    padding-bottom: 8px;
+}
+
+/* ------------------------------ SERVICES END ---------------------- */
+
+/* ------------------------------ CONNECT START ---------------------- */
+.connect{
+    margin-bottom: 120px;
+}
+
+.connect__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+}
+
+.connect__title{
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.connect__info-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    margin-bottom: 24px;
+}
+
+
+.connect__info-check-wrap{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #0A2640;
+    display: flex;
+    justify-content: center;
+}
+
+.connect__info-text{
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+/* ------------------------------ CONNECT END ---------------------- */
 
 /* ----------------------------- MEDIA QUERIES START ------------- */
 @media only screen and (max-width: 1242px){
